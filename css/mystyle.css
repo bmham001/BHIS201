@@ -1,0 +1,24 @@
+.designs {
+    text-decoration-color:cadetblue
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    display: flex;
+}
+
+.container img{
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+
+.overlaypear{
+    overlay: img 
+}
+
+.navbar-brand{
+    text-decoration-color:blue
+}

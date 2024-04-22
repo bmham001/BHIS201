@@ -1,0 +1,97 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.left{
+    width:350px;
+    background-color:darkslategray;
+    padding:20px;
+    text-align: center;
+}
+
+
+.right{
+    flex: 1;
+    height: 80px;
+    padding:20px;
+    background-color:cadetblue;
+    text-align: right;   
+}
+
+.tabs{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.tabs li{
+    display:inline;
+    margin-right:10px;
+   
+}
+
+.tabs li a{
+    text-decoration:none;
+    color:white;
+    text-align:justfy;
+}
+
+.header{
+    text-decoration-color:white;
+
+}
+
+.left-column{
+    width: 350px;
+    height:100%;
+    background-color: lightgrey;
+    float:left;
+    padding:20px;
+    text-align:center;
+}
+
+.content{
+    background-color: lightcyan;
+    padding:20px;
+    padding-left:450px;
+    
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.portrait{
+    width: 300px;
+    height: 300px;
+}
+
+ol, ul{
+    list-style-position: inside;
+    Margin:0;
+    padding:0;
+}
+
+.skillh{
+    font-weight:bold;
+}
+
+.title{
+    font-size: 30px;
+}
+
+.subhead{
+    font-size:22px;
+    text-decoration:underline;
+}
+.morris{
+    font-size:17px;
+}
